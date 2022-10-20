@@ -1,0 +1,182 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 80px;
+}
+.topbar{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-deezer{
+    width: 135px;
+    height: 30px;
+    margin: 15px 120px;
+}
+.menu{
+    margin-right: 100px;
+    color: #32323d;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}
+.menu a{
+    text-align: right;
+    text-decoration: none;
+    color: #32323d;
+}
+.link{
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    width: 154px;
+    height: 40px;
+    background-color: white;
+    color: #2d96c8;
+    border-radius: 35px;
+    border: 2px solid;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.33;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+}
+.connect-button{    
+    width: 124px;
+    background-color: white;
+}
+.connect-button:hover{
+    color: #03608a;
+}
+.connect-button-text{
+    font-size: 15px;
+    font-weight: 700;
+}
+.singin-button{
+    width: 124px;
+    margin-left: 15px;
+    background-color: currentColor;
+}
+.singin-button:hover{
+    color: #03608a;
+}
+.signin-button-text{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.container{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(
+    137deg,
+    #22efcb 15.51%,
+    #2980ff 51.65%,
+    #a125ff 85.09%
+  );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.month{
+    background: linear-gradient(
+        69.06deg,
+        #b84fdd -26.76%,
+        #4965f4 44.6%,
+        #2efb74 132.54%
+    );
+    box-sizing: border-box;
+    border-radius: 32px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    height: 32px;
+    letter-spacing: 1px;
+    margin-right: 5px;
+    padding: 9px 16px;
+
+}
+.year{
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 9px 16px
+
+}
+.number{
+    color: #007fdb;
+}
+.h1{
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
+.h2{
+    color: #fff;
+    font-size: 80px;
+    line-height: 80px;
+    margin: 0 auto 20px;
+    width: 600px;
+    text-align: center;
+}
+.h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    margin: 0 0 30px;
+    text-align: center;
+}
+.input-button{
+    margin: auto auto 26px;
+    max-width: 400px;
+}
+.input{
+    border: none;
+    border-radius: 100px;
+    display: inline-block;
+    height: 54px;
+    padding: 10px 54px 10px 20px;
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    z-index: 0;
+}
+.submit{
+    background-color: #ef5466;
+    border-radius: 100px;
+    padding: 12px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+}
